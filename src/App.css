@@ -1,20 +1,40 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   text-align: center;
+  margin: 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dashboard_container
+{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #181818;
+  border-radius: 30px;
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.service_groups
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100px;
+  width: 400px;
+  margin: 10px;
+  border: 2px solid red;
 }
-
+.service_container
+{
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+}
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +55,70 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  display: flex;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu li {
+  position: absolute;
+  list-style: none;
+  transform-origin: center;
+  border-radius: 50%;
+  transition: .5s;
+  transition-delay: calc(.1s * (var(--i)));
+  transform: rotate(0deg) translateX(0);
+}
+
+.menu.active li {
+  transform: rotate(calc(360deg / 8 * var(--i))) translateX(150px); /* Adjusted for 100px size */
+}
+
+.menu li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px; /* Adjusted size */
+  height: 100px; /* Adjusted size */
+  border-radius: 50%;
+  transform: rotate(calc(360deg / -8 * var(--i)));
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+  color: #111;
+  transition: .5s;
+}
+
+.menu li a:hover {
+  color: green;
+}
+
+.toggle {
+  display: flex;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  background-image: linear-gradient(blue 0%, #ffffff 52%, #ffffff 70%, blue 100%); 
+  border-radius: 50%;
+  align-items: center;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+  font-size: 2em;
+  transition: transform 1.25s;
+}
+
+.menu.active .toggle {
+  transform: rotate(315deg);
 }
