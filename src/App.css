@@ -9,13 +9,13 @@
 {
   display: flex;
   flex-wrap: wrap;
-  background-color: #181818;
+  background-color: #000000;
   border-radius: 30px;
   width: 100%;
-  height: 500px;
+  height: 600px;
   justify-content: center;
   align-items: center;
-  padding-top: 10px;
+  padding-bottom: 100px;
 }
 .service_groups
 {
@@ -83,7 +83,7 @@
 }
 
 .menu.active li {
-  transform: rotate(calc(360deg / 8 * var(--i))) translateX(150px); /* Adjusted for 100px size */
+  transform: rotate(calc(360deg / 8 * var(--i))) translateX(160px); /* Adjusted for 100px size */
 }
 
 .menu li a {

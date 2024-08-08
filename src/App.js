@@ -11,8 +11,6 @@ import Bluetooth_Icon from './components/icons/Bluetooth_Icon';
 import Phone_Icon from './components/icons/Phone_Icon'
 
 
-const iconSize = 20;
-
 function App() {
   const [menuActive, setMenuActive] = useState(false);
 
@@ -24,6 +22,7 @@ function App() {
     <div className="App">
       <h1>Infotainment</h1>
       <div className="dashboard_container">
+      <hr width="100%" size="2" style={{margin:'0px 100px'}} />
         <div className="container">
           <div className={`menu ${menuActive ? 'active' : ''}`}>
             <div className="toggle" onClick={toggleMenu}>
