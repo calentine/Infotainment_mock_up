@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Trip_Comp_Icon({width, height}) {
+function TripCompIcon({width, height}) {
   return (
     <div>
         <svg width={width} height={height} viewBox="0 0 67 53" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -12,4 +12,4 @@ function Trip_Comp_Icon({width, height}) {
   )
 }
 
-export default Trip_Comp_Icon
+export default TripCompIcon

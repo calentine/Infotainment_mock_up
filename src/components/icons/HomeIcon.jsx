@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Home_Icon() {
+function HomeIcon() {
   return (
     <div>
         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -18,4 +18,4 @@ function Home_Icon() {
   )
 }
 
-export default Home_Icon
+export default HomeIcon

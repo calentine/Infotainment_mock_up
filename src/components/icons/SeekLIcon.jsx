@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Seek_L_Icon() {
+function SeekLIcon() {
   return (
     <div>
         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -11,4 +11,4 @@ function Seek_L_Icon() {
   )
 }
 
-export default Seek_L_Icon
+export default SeekLIcon

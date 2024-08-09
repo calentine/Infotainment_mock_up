@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Audio_Icon() {
+function AudioIcon() {
   return (
     <div>
         <svg width="40" height="35" viewBox="0 0 40 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -11,4 +11,4 @@ function Audio_Icon() {
   )
 }
 
-export default Audio_Icon
+export default AudioIcon

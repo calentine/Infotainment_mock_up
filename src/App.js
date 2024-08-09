@@ -1,8 +1,8 @@
 import './App.css';
-import Service_Component from './components/Service_Component';
-import Top_NavBar from './components/Top_NavBar';
-import Side_NavBar from './components/Side_NavBar';
-import Bottom_Nav_Bar from './components/Bottom_Nav_Bar';
+import ServiceComponent from './components/ServiceComponent';
+import TopNavBar from './components/TopNavBar';
+import SideNavBar from './components/SideNavBar';
+import BottomNavBar from './components/BottomNavBar'
 
 
 
@@ -11,9 +11,9 @@ function App() {
     <div className="App">
       <h2>Civic, Accord, and CR-V Mock Infotainment Display</h2>
       <div className="dashboard_container">
-      <Top_NavBar/>
+      <TopNavBar/>
         <hr width="100%" size="2" style={{margin:'0px 100px'}} />
-          <Side_NavBar />
+          <SideNavBar />
           <div style={{ display:'flex',
                         flexDirection:'column',
                         width:'auto',
@@ -24,9 +24,9 @@ function App() {
                         alignSelf:'center'
                       }}
           >
-            <Service_Component />
+            <ServiceComponent />
           </div>
-          <Bottom_Nav_Bar />      
+          <BottomNavBar />      
       </div>
     </div>
   );

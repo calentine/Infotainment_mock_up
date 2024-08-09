@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Ai_Assist_Icon({width, height}) {
+function AiAssistIcon({width, height}) {
   return (
     <div>
         <svg width={width} height={height} viewBox="0 0 66 54" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -11,4 +11,4 @@ function Ai_Assist_Icon({width, height}) {
   )
 }
 
-export default Ai_Assist_Icon
+export default AiAssistIcon

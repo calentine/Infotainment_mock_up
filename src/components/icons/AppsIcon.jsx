@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Apps_Icon({width, height}) {
+function AppsIcon({width, height}) {
   return (
     <div>
         <svg width={width} height={height} viewBox="0 0 67 53" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -12,4 +12,4 @@ function Apps_Icon({width, height}) {
   )
 }
 
-export default Apps_Icon
+export default AppsIcon

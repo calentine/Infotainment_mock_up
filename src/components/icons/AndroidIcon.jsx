@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Android_Icon({width, height}) {
+function AndroidIcon({width, height}) {
   return (
     <div>
         <svg width={width} height={height} viewBox="0 0 67 54" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -18,4 +18,4 @@ function Android_Icon({width, height}) {
   )
 }
 
-export default Android_Icon
+export default AndroidIcon

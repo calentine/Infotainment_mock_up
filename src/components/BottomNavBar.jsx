@@ -1,14 +1,14 @@
 import React from 'react'
-import Ai_Assist_Icon from './icons/Ai_Assist_Icon'
-import FM_Icon from './icons/FM_Icon';
-import Nav_Icon from './icons/Nav_Icon';
-import Bluetooth_Icon from './icons/Bluetooth_Icon';
-import Phone_Icon from './icons/Phone_Icon'
-import Display_L_Selector_Icon from './icons/Display_L_Selector_Icon'
-import Display_R_Selector_Icon from './icons/Display_R_Selector_Icon';
+import Ai_Assist_Icon from './icons/AiAssistIcon'
+import FM_Icon from './icons/FMIcon';
+import Nav_Icon from './icons/NavIcon';
+import Bluetooth_Icon from './icons/BluetoothIcon';
+import Phone_Icon from './icons/PhoneIcon'
+import Display_L_Selector_Icon from './icons/DisplayLSelectorIcon'
+import Display_R_Selector_Icon from './icons/DisplayRSelectorIcon';
 
 
-function Bottom_Nav_Bar() {
+function BottomNavBar() {
   const iconHeight = 40;
   const iconWidth = 40;
   return (
@@ -55,4 +55,4 @@ function Bottom_Nav_Bar() {
   )
 }
 
-export default Bottom_Nav_Bar
+export default BottomNavBar

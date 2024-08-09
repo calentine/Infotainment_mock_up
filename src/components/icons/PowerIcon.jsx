@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Power_Icon() {
+function PowerIcon() {
   return (
     <div>
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -18,4 +18,4 @@ function Power_Icon() {
   )
 }
 
-export default Power_Icon
+export default PowerIcon

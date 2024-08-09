@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Battery_Icon() {
+function BatteryIcon() {
   return (
     <div>
         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -11,4 +11,4 @@ function Battery_Icon() {
   )
 }
 
-export default Battery_Icon
+export default BatteryIcon

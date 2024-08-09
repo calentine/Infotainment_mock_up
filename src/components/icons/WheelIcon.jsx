@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Wheel_Icon() {
+function WheelIcon() {
   return (
   <div>
     <svg  width="150" 
@@ -15,5 +15,5 @@ function Wheel_Icon() {
   )
 }
 
-export default Wheel_Icon
+export default WheelIcon
 

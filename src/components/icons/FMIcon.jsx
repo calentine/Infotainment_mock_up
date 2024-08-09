@@ -1,6 +1,6 @@
 import React from 'react'
 
-function FM_Icon({width, height}) {
+function FMIcon({width, height}) {
   return (
     <div>
     <svg width={width} height={height} viewBox="0 0 67 72" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -20,4 +20,4 @@ function FM_Icon({width, height}) {
   )
 }
 
-export default FM_Icon
+export default FMIcon

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function User_Icon() {
+function UserIcon() {
   return (
     <div>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
@@ -12,4 +12,4 @@ function User_Icon() {
   )
 }
 
-export default User_Icon
+export default UserIcon

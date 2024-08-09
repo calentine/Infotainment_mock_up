@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Phone_Icon({width, height}) {
+function PhoneIcon({width, height}) {
   return (
     <div>
         <svg width={width} height={height} viewBox="0 0 67 53" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -18,4 +18,4 @@ function Phone_Icon({width, height}) {
   )
 }
 
-export default Phone_Icon
+export default PhoneIcon

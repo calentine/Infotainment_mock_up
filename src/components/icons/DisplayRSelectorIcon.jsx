@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Display_R_Selector_Icon() {
+function DisplayRSelectorIcon() {
   return (
     <div>
         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -18,4 +18,4 @@ function Display_R_Selector_Icon() {
   )
 }
 
-export default Display_R_Selector_Icon
+export default DisplayRSelectorIcon

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Bluetooth_Icon({width, height}) {
+function BluetoothIcon({width, height}) {
   return (
     <div>
 
@@ -19,4 +19,4 @@ function Bluetooth_Icon({width, height}) {
   )
 }
 
-export default Bluetooth_Icon
+export default BluetoothIcon

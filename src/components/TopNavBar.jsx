@@ -1,9 +1,9 @@
 import React from 'react'
-import User_Icon from './icons/User_Icon'
-import Audio_Icon from './icons/Audio_Icon'
-import Battery_Icon from './icons/Battery_Icon'
+import UserIcon from './icons/UserIcon'
+import AudioIcon from './icons/AudioIcon'
+import BatteryIcon from './icons/BatteryIcon'
 
-function Top_NavBar() {
+function TopNavBar() {
   return (
     <div style={{ display: 'flex', 
                   flexDirection:'row', 
@@ -16,13 +16,13 @@ function Top_NavBar() {
                   gap: '20px'}}
     >
     <h6 style={{fontSize:"12px"}}>Audio Source</h6>
-    <User_Icon />
-    <Audio_Icon />
+    <UserIcon />
+    <AudioIcon />
     <h6 style={{fontSize:"18px", marginLeft: '10px'}}>Audio Power : Off</h6>
-    <div style={{marginLeft:'auto'}}><Battery_Icon /></div>
+    <div style={{marginLeft:'auto'}}><BatteryIcon /></div>
     <h6 style={{fontSize:"30px", marginLeft: '10px'}}>12:22</h6>
   </div>
   )
 }
 
-export default Top_NavBar
+export default TopNavBar

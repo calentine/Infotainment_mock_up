@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Volume_Icon() {
+function VolumeIcon() {
   return (
     <div>
         <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -19,4 +19,4 @@ function Volume_Icon() {
   )
 }
 
-export default Volume_Icon
+export default VolumeIcon
