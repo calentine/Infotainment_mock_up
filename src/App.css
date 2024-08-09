@@ -24,13 +24,12 @@
 {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   background-color: #000000;
   border-radius: 30px;
   width: 100%;
   height: 600px;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 100px;
+  padding-bottom: 20%;
 }
 .service_groups
 {
@@ -47,18 +46,18 @@
   height: 100px;
   width: 100px;
   border-radius: 100px;
+  border: pink solid 2px;
 }
 .button_wrapper
 {
   background-color: 'none';
   background: none;
-  border: 'none';
+  border: 1px white solid;
   cursor: 'pointer';
   height: 100px;
   width: 100px;
   border-radius: 100px;
 }
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -117,8 +116,8 @@
 .toggle {
   display: flex;
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 115px;
+  height: 115px;
   justify-content: center;
   background-image: linear-gradient(blue 0%, #ffffff 52%, #ffffff 70%, blue 100%); 
   border-radius: 50%;
