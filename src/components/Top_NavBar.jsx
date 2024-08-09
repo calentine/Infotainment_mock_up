@@ -11,7 +11,6 @@ function Top_NavBar() {
                   color:'white', 
                   width:"100%", 
                   height:'60px', 
-                  marginTop:'10px', 
                   alignItems:'center', 
                   margin:"0px 100px", 
                   gap: '20px'}}

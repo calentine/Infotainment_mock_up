@@ -2,13 +2,14 @@ import './App.css';
 import Service_Component from './components/Service_Component';
 import Top_NavBar from './components/Top_NavBar';
 import Side_NavBar from './components/Side_NavBar';
+import Bottom_Nav_Bar from './components/Bottom_Nav_Bar';
 
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Infotainment</h1>
+      <h2>Infotainment</h2>
       <div className="dashboard_container">
       <Top_NavBar/>
         <hr width="100%" size="2" style={{margin:'0px 100px'}} />
@@ -25,8 +26,7 @@ function App() {
           >
             <Service_Component />
           </div>
-          
-          
+          <Bottom_Nav_Bar />      
       </div>
     </div>
   );

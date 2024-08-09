@@ -12,6 +12,8 @@ import Phone_Icon from './icons/Phone_Icon'
 
 
 function Service_Component() {
+    const width = 70;
+    const height = 70;
     const [menuActive, setMenuActive] = useState(false);
   
     const toggleMenu = () => {
@@ -24,28 +26,28 @@ function Service_Component() {
             <Wheel_Icon />
             </div>
             <li style={{ '--i': 0, backgroundImage: 'linear-gradient(orange 0%, #34335D 52%, #34335D 92%, orange 100%)' }}>
-              <button className='button_wrapper' onClick={() => console.log("Navigation Pressed")} ><Nav_Icon /></button>
+              <button className='button_wrapper' onClick={() => console.log("Navigation Pressed")} ><Nav_Icon width={width} height={height} /></button>
             </li>
             <li style={{ '--i': 1, backgroundImage: 'linear-gradient(green 0%, #34335D 52%, #34335D 92%, green 100%)' }}>
-              <button className='button_wrapper' onClick={() => console.log("Phone Pressed")} ><Phone_Icon /></button>
+              <button className='button_wrapper' onClick={() => console.log("Phone Pressed")} ><Phone_Icon width={width} height={height} /></button>
             </li>
             <li style={{ '--i': 2 , backgroundImage: 'linear-gradient(blue 0%, #34335D 52%, #34335D 92%, blue 100%)'}}>
-              <button className='button_wrapper' onClick={() => console.log("Android Pressed")} ><Android_Icon /></button>
+              <button className='button_wrapper' onClick={() => console.log("Android Pressed")} ><Android_Icon width={width} height={height} /></button>
             </li>
             <li style={{ '--i': 3, backgroundImage: 'linear-gradient(red 0%, #34335D 52%, #34335D 92%, red 100%)' }}>
-              <button className='button_wrapper' onClick={() => console.log("FM Pressed")} ><FM_Icon /></button>
+              <button className='button_wrapper' onClick={() => console.log("FM Pressed")} ><FM_Icon width={width} height={height} /></button>
             </li>
             <li style={{ '--i': 4 , backgroundImage: 'linear-gradient(orange 0%, #34335D 8%, #34335D 52%, orange 100%)'}}>
-              <button className='button_wrapper' onClick={() => console.log("Apps Pressed")} ><Apps_Icon /></button>
+              <button className='button_wrapper' onClick={() => console.log("Apps Pressed")} ><Apps_Icon width={width} height={height} /></button>
             </li>
             <li style={{ '--i': 5 , backgroundImage: 'linear-gradient(green 0%, #34335D 52%, #34335D 92%, green 100%)'}}>
-              <button className='button_wrapper' onClick={() => console.log("Bluetooth Pressed")} ><Bluetooth_Icon /></button>
+              <button className='button_wrapper' onClick={() => console.log("Bluetooth Pressed")} ><Bluetooth_Icon width={width} height={height} /></button>
             </li>
             <li style={{ '--i': 6 , backgroundImage: 'linear-gradient(blue 0%, #34335D 52%, #34335D 92%, blue 100%)'}}>
-              <button className='button_wrapper' onClick={() => console.log("Ai Assist Pressed")} ><Ai_Assist_Icon /></button>
+              <button className='button_wrapper' onClick={() => console.log("Ai Assist Pressed")} ><Ai_Assist_Icon width={width} height={height} /></button>
             </li>
             <li style={{ '--i': 7 , backgroundImage: 'linear-gradient(red 0%, #34335D 52%, #34335D 92%, red 100%)'}}>
-              <button className='button_wrapper' onClick={() => console.log("Trip Info Pressed")} ><Trip_Comp_Icon /></button>
+              <button className='button_wrapper' onClick={() => console.log("Trip Info Pressed")} ><Trip_Comp_Icon width={width} height={height} /></button>
             </li>
           </div>
         </div>
