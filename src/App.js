@@ -9,7 +9,7 @@ import Bottom_Nav_Bar from './components/Bottom_Nav_Bar';
 function App() {
   return (
     <div className="App">
-      <h2>Infotainment</h2>
+      <h2>Top 3 Models: Civic, Accord, and CR-V  Infotainment Display</h2>
       <div className="dashboard_container">
       <Top_NavBar/>
         <hr width="100%" size="2" style={{margin:'0px 100px'}} />

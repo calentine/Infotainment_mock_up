@@ -5,7 +5,6 @@ import Nav_Icon from './icons/Nav_Icon';
 import Bluetooth_Icon from './icons/Bluetooth_Icon';
 import Phone_Icon from './icons/Phone_Icon'
 import Display_L_Selector_Icon from './icons/Display_L_Selector_Icon'
-import Display_Selector_Icon from './icons/Display_L_Selector_Icon';
 import Display_R_Selector_Icon from './icons/Display_R_Selector_Icon';
 
 
